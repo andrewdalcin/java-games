@@ -14,10 +14,6 @@ public class App extends Application {
 	
 	@Override
 	public void start(Stage stage) {
-		/* String musicFile = "file:///C:/Users/Jeremy/workspace/FXProjectPractice1/TEXHNOLYZE_OP_CUT.mp3";     
-		Media sound = new Media(musicFile);
-		final MediaPlayer mediaPlayer = new MediaPlayer(sound);
-		mediaPlayer.setAutoPlay(true); */
 		PaneOrganizer organizer = new PaneOrganizer();
 		Scene scene = new Scene(organizer.getRoot(), Constants.APP_WIDTH, Constants.APP_HEIGHT);
 		stage.setScene(scene);
